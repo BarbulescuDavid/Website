@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0px;
+  background-image: url(paper.jpg) no-repeat fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#header_all{
+  width: 100%;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  height: 128px;
+  float: left;
+  border-bottom: 3px solid black;
+}
+
+.title > p1 {
+  font-size: 40px;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+}
+
+.title{
+  float: left;
+  margin-left: 25px;
+}
+
+.search_bar{
+  float: right;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.main_buttons{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin-top: -30px;
+}
+
+.href_buttons > a{
+  padding-left: 50px;
+  font-size: 48px;
+  color: black;
+  text-decoration: none;
+}
+
+.href_buttons > a:hover{
+  color: white;
+}
+
+
+#story_all{
+  display: block;
+  height: auto;
+  margin: 0px;
+}
+
+#story_all > h1 {
+  margin: 0px;
+  border-bottom: 3px solid black;
+  display: block;
+}
+
+#armory_all{
+  display: block;
+  margin: 0px;
+  height: auto;
+  border-bottom: 3px solid black;
+}
+
+.weaponry{
+  display: block;
+}
+
+#weaponry_all{
+  display: block;
+  margin: 0px;
+  height: auto;
+  border-bottom: 3px solid black;
+}
+
+#mounts_all{
+  margin: 0px;
+  display: block;
+  height: auto;
+  border-bottom: 3px solid black;
+}
+
+#footer{
+  display: block;
+  width: 100%;
+  height: 100px;
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+}
+
+#footer > p {
+  float: right;
+}

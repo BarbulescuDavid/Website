@@ -1,0 +1,94 @@
+<?php
+	session_start();
+
+	if(isset($_SESSION['user_login'])){
+	}else{
+		header("Location:login.php");
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>TheShop</title>
+      <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+      <!-- Aici se afla header-ul -->
+      <div id="header_all">
+        <div class="header">
+          <div class="logo">
+            <img width="75px" height="70" src="chest.png">
+          </div>
+
+        <div class="title">
+          <p1>TheShop</p1>
+        </div>
+
+        <div class="search_bar">
+          <form>
+            <input type="text" name="search" placeholder="Search here">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+
+          <div class="main_buttons">
+            <div class="href_buttons">
+              <a href="#story_all">Our story</a>
+              <a href="#armory_all">Armory</a>
+              <a href="#weaponry_all">Weaponry</a>
+              <a href="#mounts_all">Mounts</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Aici se afla povestea -->
+    <div id="story_all">
+      <h1>Long ago in a place far far away...
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+      </h1>
+    </div>
+
+    <!-- Aici se afla arumurile -->
+    <div id="armory_all">
+      <div class="armory">
+        <div class="logo_armor">
+          <img width="75px" height="70" src="armor.png">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Aici se afla armele -->
+    <div id="weaponry_all">
+      <div class="weaponry">
+        <div class="logo_weapon">
+          <img width="75px" height="70" src="armor.png">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Aici se afla mounts -->
+    <div id="mounts_all">
+      <div class="mounts">
+        <div class="logo_mount">
+          <img width="75px" height="70" src="armor.png">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Aici se afla footer ul -->
+    <div id="footer">
+      <p>&copy; David Barbulescu 2018</p>
+    </div>
+
+</body>
+</html>
